@@ -4,7 +4,7 @@ import projects from "../assets/projects.json";
 function project() {
   return (
     <>
-     <div className="container project">
+     <div className="container project" id="project">
       <h1>Project</h1>
       <div className="row d-flex justify-content-center text-align-center">
 
@@ -14,7 +14,12 @@ function project() {
           <div key={go.id} className={"my-3 col-md-4"}>
           
           
-          <div className="card bg-dark text-white" style={{width:'18rem', border:'1px solid yellow', boxShadow:'5px 5px 10px 0px rgba(101,175,10,0.5)'}} >
+          <div className="card bg-dark text-white" style={{width:'18rem', border:'1px solid yellow', boxShadow:'5px 5px 10px 0px rgba(101,175,10,0.5)'}} 
+          
+          data-aos="flip-right"
+    data-aos-duration="1000"
+          >
+         
             <div className="img d-flex justify-content-center text-align-center">
   <img src={`/src/assets/${go.imageSrc}`} className="card-img-top" alt={go.name}
   

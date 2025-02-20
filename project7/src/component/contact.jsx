@@ -8,32 +8,35 @@ import { CgMail } from "react-icons/cg";
 function contact() {
   return (
     <>
-    <div className="container contact">
+    <div className="container contact" id="contact">
      <h1>CONTACT ME</h1>
-     <div className="icon">
+     <div className="icon"
+     data-aos="zoom-in-up"
+    data-aos-duration="1000"
+     >
     
-    <a href='https://www.google.com' className="items">
+    <a href='https://www.instigram.com' className="items">
    
     <FaInstagramSquare className='icons' />
 
     </a>
-    <a href='https://.www.google.com'className="items">
+    <a href='https://.www.facebook.com'className="items">
     <FaFacebookSquare className='icons' />
     
 
     </a>
-    <a href='https://www.google.com' className="items">
+    <a href='https://www.linkdin.com' className="items">
     <CiLinkedin className='icons' />
     </a>
 
     
-    <a href='https://www.google.com'className="items">
+    <a href='https://www.github.com'className="items">
     <FaGithub className='icons' />
     </a>
-    <a href='https://www.google.com'className="items">
+    <a href='https://www.twitter.com'className="items">
     <FaTwitterSquare className='icons' />
     </a>
-    <a href='https://www.google.com'className="items">
+    <a href='https://www.gmail.com'className="items">
     <CgMail  className='icons'/>
     </a>
 
