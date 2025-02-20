@@ -1,0 +1,33 @@
+[
+    {
+    "tittle":"html",
+    "imageSrc":"skills/html.png"
+    
+    },
+    {
+    "tittle":"javascript",
+    "imageSrc":"skills/javascript.png"
+    
+    },
+    {
+    "tittle":"react",
+    "imageSrc":"skills/react.png"
+    
+    },
+    {
+    "tittle":"node",
+    "imageSrc":"skills/node.png"
+    
+    },
+    {
+    "tittle":"figma",
+    "imageSrc":"skills/figma.png"
+    
+    },
+    {
+    "tittle":"graphql",
+    "imageSrc":"skills/graphql.png"
+    
+    }
+    
+    ]
